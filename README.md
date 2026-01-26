@@ -7,12 +7,8 @@ Java programming language.
 ## Running the program
 A simple way is to run the java test file.
 
-## Benchmarks
-- The data format used is the same as in the file DB_Utility2.txt, example.txt
-
 ## Introduction
 This will be introduced later.
-
 
 ## Notes
 If there are any questions, please contact us (Email: zhidonglin6@gmail.com).
