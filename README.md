@@ -1,5 +1,5 @@
 # ELUIM
-This repo hosts the code for paper **"ELUIM: Low-Utility Itemset Mining with Multiple Pruning Strategies**.
+This repo hosts the code for paper **"Learning-Oriented Low-Utility Itemset Mining with Efficient Utility-Aware Pruning**.
 
 ## Requirements
 Java programming language.
