@@ -38,7 +38,6 @@ public class MainTestLUMAlgorithm_saveToFile {
 //            LowUtilityMing_preprocess_strategy1 lowUtilityMing = new LowUtilityMing_preprocess_strategy1();
 //            LowUtilityMing_preprocess_strategy2 lowUtilityMing = new LowUtilityMing_preprocess_strategy2();
 //            LowUtilityMing_preprocess_strategy1_strategy2 lowUtilityMing = new LowUtilityMing_preprocess_strategy1_strategy2();
-//            LowUtilityMing lowUtilityMing = new LowUtilityMing();
 			MemoryLogger.getInstance().checkMemory();
 			lowUtilityMing.runAlgorithm(input, max_utility[i], output);
 			MemoryLogger.getInstance().checkMemory();
