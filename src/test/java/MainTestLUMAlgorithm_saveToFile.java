@@ -32,12 +32,8 @@ public class MainTestLUMAlgorithm_saveToFile {
 		int[] max_utility = new int[]{80};
 		for (int i = 0; i < max_utility.length; i++) {
 			MemoryLogger.getInstance().reset();
-            ELUIM_preprocess lowUtilityMing = new ELUIM_preprocess();
+            ELUIM lowUtilityMing = new ELUIM();
 //            LowUtilityMing_strategy1 lowUtilityMing = new LowUtilityMing_strategy1();
-//            LowUtilityMing_strategy2 lowUtilityMing = new LowUtilityMing_strategy2();
-//            LowUtilityMing_preprocess_strategy1 lowUtilityMing = new LowUtilityMing_preprocess_strategy1();
-//            LowUtilityMing_preprocess_strategy2 lowUtilityMing = new LowUtilityMing_preprocess_strategy2();
-//            LowUtilityMing_preprocess_strategy1_strategy2 lowUtilityMing = new LowUtilityMing_preprocess_strategy1_strategy2();
 			MemoryLogger.getInstance().checkMemory();
 			lowUtilityMing.runAlgorithm(input, max_utility[i], output);
 			MemoryLogger.getInstance().checkMemory();
